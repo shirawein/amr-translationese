@@ -1,4 +1,5 @@
 # Some code adapted from https://github.com/Heidelberg-NLP/simple-xamr
+# Uses the nmt_english file located at: https://github.com/Heidelberg-NLP/simple-xamr/blob/main/nmt_english.py
 
 from nmt_english import Translator
 import multiprocessing
