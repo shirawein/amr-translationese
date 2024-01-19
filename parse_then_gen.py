@@ -6,15 +6,6 @@ import os
 import locale
 import sys
 
-def truncate_files(filename):
-    # cut off the last 5 lines to omit the obsolete AMR graph
-    with open(filename, mode='r+', encoding='utf-8') as f:
-        lines = f.readlines()[:-5]
-        print(lines)
-        f.truncate()
-        f.seek(0)
-        f.writelines(lines)
-
 if __name__ == '__main__':
     arguments = sys.argv
     
